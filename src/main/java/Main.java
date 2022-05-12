@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] arg){
-        Interface people1 = new Info();
-        Interface people2 = new Info();
+        Info person1 = new InfoPerson();
+        Info person2 = new InfoPerson();
 
-        people1.fillInfo();
-        people2.fillInfo();
+        person1.fillInfo();
+        person2.fillInfo();
 
-        people1.getInfo();
-        people2.getInfo();
+        person1.printInfo();
+        person2.printInfo();
 
 
     }

@@ -1,15 +1,15 @@
 public class Person {
-    private String person;
+    private String name;
     private int number;
     private int assessmentMath;
     private int assessmentPhysics;
     private int assessmentPhilosophy;
 
-    public String getPerson(){
-        return person;
+    public String getName(){
+        return name;
     }
-    public void setPerson(String person){
-        this.person=person;
+    public void setName(String name){
+        this.name = name;
     }
     public int getNumber(){
         return number;
