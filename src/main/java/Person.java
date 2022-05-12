@@ -1,4 +1,4 @@
-public class BdPeople {
+public class Person {
     private String person;
     private int number;
     private int assessmentMath;
