@@ -1,18 +1,5 @@
 public class Info implements Interface {
-    private Person people;
-    public Info(Person people) {
-        this.people = people;
-    }
-
-    public Info() {
-        people.setPerson("/NAME/ ");
-        people.setNumber((int) (Math.random() * 100) + (int) (Math.random() * 100));
-        people.setAssessmentMath(1 + (int) (Math.random()*5));
-        people.setAssessmentPhysics(1 + (int) (Math.random()*5));
-        people.setAssessmentPhilosophy(1 + (int) (Math.random()*5));
-        people.setAssessmentPhilosophy(1 + (int) (Math.random()*5));
-    }
-
+    private final Person people = new Person();
     @Override
     public void fillInfo() {
         // не придумал ничего лучше чем зарание записать(
