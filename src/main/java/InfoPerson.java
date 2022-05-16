@@ -1,5 +1,10 @@
+/*
+ * Adapter(Gof)
+ */
+
 public class InfoPerson implements Info {
     private final Person person = new Person();
+
     @Override
     public void fillInfo() {
         // не придумал ничего лучше чем зарание записать(

@@ -8,7 +8,5 @@ public class Main {
 
         person1.printInfo();
         person2.printInfo();
-
-
     }
 }
